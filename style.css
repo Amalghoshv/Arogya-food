@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Merienda:wght@400;700&family=Oxanium:wght@200&family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
+#navbarSupportedContent {
+    background-color: transparent;
+    border-radius: 5%;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.parent {
+    display: flex;
+}
+
+.container-fluid {
+    position: relative;
+    margin-bottom: 18rem;
+    width: 100%;
+    height: auto;
+}
+
+.container-md {
+    color-scheme: red;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.nav-item {
+    float: right;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-item a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-img {
+    background-image: url(/images/banner.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.bg-image {
+    background-image: url(/images/istockphoto-1265557067-170667a.jpg);
+    width: 100%;
+    height: 50%;
+}
+
+#welcome {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.mb-4 {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+#arogya {
+    font-family: 'Merienda', cursive;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    font-size: 1vw;
+    top: 30%;
+    right: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(238, 10, 10);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Oxanium', cursive;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.text-block2 {
+    position: absolute;
+    font-size: 1.2vw;
+    right: 10%;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 100%;
+    margin-bottom: 80%;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+#Description {
+    padding: 0.5rem;
+    background-color: rgb(149, 246, 154);
+    border: 2px solid rgb(66, 221, 79);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.card {
+    background-color: rgb(69, 70, 41);
+    color: blanchedalmond;
+    border-width: 1rem;
+    border-color: rgb(175, 241, 120);
+    border-style: groove;
+    font-style: italic;
+}
+
+#hp {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.bg-image1 {
+    background-image: url(/images/pexels-felix-mittermeier-958076\(1\).jpg);
+}
+
+#footer-top {
+    background-color: #e3f887
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 3rem;
+    padding: 8px 12px;
+    position: absolute;
+    top: 5%;
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media(max-width:480px) {
+    .text {
+        font-size: 1.5rem;
+    }
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(211, 224, 91);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: transparent;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .6
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
