@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Merienda:wght@400;700&family=Oxanium:wght@200&family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
 #navbarSupportedContent {
-    background-color: transparent;
-    border-radius: 1%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    padding: auto;
+    margin-top: 1;
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: lighter;
@@ -30,9 +32,9 @@
 .nav-item {
     float: right;
     text-align: center;
-    padding: 1rem;
+    padding: 0.2rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .nav-item a:hover {
@@ -79,7 +81,7 @@
 
 .text-block {
     position: absolute;
-    font-size: 1vw;
+    font-size: 1.3rem;
     top: 30%;
     right: 40%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -93,7 +95,7 @@
 
 .text-block2 {
     position: absolute;
-    font-size: 1.2vw;
+    font-size: 1vw;
     right: 10%;
     top: 10%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -117,8 +119,8 @@
     background-color: rgb(69, 70, 41);
     color: blanchedalmond;
     border-width: 1rem;
-    border-color: rgb(175, 241, 120);
-    border-style: groove;
+    border-color: rgb(205, 252, 167);
+    border-style: hidden;
     font-style: italic;
 }
 
