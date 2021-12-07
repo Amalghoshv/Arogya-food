@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Merienda:wght@400;700&family=Oxanium:wght@200&family=PT+Sans+Narrow&family=Playfair+Display&display=swap');
 #navbarSupportedContent {
     background-color: transparent;
-    border-radius: 5%;
+    border-radius: 1%;
     font-family: 'Baloo Bhaijaan 2', cursive;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: lighter;
@@ -14,7 +14,7 @@
 
 .container-fluid {
     position: relative;
-    margin-bottom: 18rem;
+    margin-bottom: 14rem;
     width: 100%;
     height: auto;
 }
@@ -30,9 +30,9 @@
 .nav-item {
     float: right;
     text-align: center;
-    padding: 1vw;
+    padding: 1rem;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .nav-item a:hover {
@@ -44,7 +44,7 @@
 }
 
 .bg-img {
-    background-image: url(../images/banner.jpg);
+    background-image: url(images/banner.JPG);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
     font-family: 'Merienda', cursive;
     color: white;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .container {
@@ -128,7 +128,7 @@
 }
 
 .bg-image1 {
-    background-image: url(/images/pexels-felix-mittermeier-958076\(1\).jpg);
+    background-image: url(/images/pexels-felix-mittermeier-958076\(1\).JPG)
 }
 
 #footer-top {
