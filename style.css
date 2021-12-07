@@ -134,11 +134,11 @@
 }
 
 .bg-image1 {
-    background-image: url(./images/pixels.jpg);
+    background-image: url('./images/pixels.jpg');
 }
 
 #footer-top {
-    background-color: #e3f887
+    background-color: #cbdf71
 }
 
 * {
