@@ -46,7 +46,7 @@
 }
 
 .bg-img {
-    background-image: url(./images/banner.JPG);
+    background-image: url(./images/banner.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,8 +111,6 @@
     }
 }
 
-@media(max-width:480px) {}
-
 #Description {
     padding: 0.5rem;
     background-color: rgb(149, 246, 154);
@@ -136,7 +134,7 @@
 }
 
 .bg-image1 {
-    background-image: url(./images/pexels-felix-mittermeier-958076\(1\).JPG)
+    background-image: url(./images/pexels-felix-mittermeier-958076\(1\).JPG);
 }
 
 #footer-top {
