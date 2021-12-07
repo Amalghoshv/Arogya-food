@@ -44,7 +44,7 @@
 }
 
 .bg-img {
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 }
 
 .bg-image {
-    background-image: url(/images/istockphoto-1265557067-170667a.jpg);
+    background-image: url(./images/istockphoto-1265557067-170667a.jpg);
     width: 100%;
     height: 50%;
 }
