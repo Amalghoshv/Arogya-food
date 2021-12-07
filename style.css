@@ -21,10 +21,6 @@
     height: auto;
 }
 
-.container-md {
-    color-scheme: red;
-}
-
 .topnav {
     overflow: hidden;
 }
@@ -138,15 +134,12 @@
 }
 
 #footer-top {
-    background-color: #cbdf71
+    background-color: rgb(149, 246, 154);
 }
 
 * {
     box-sizing: border-box
 }
-
-
-/* Slideshow container */
 
 .slideshow-container {
     max-width: 100%;
@@ -191,17 +184,6 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: rgb(211, 224, 91);
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
 }
 
 .active,
